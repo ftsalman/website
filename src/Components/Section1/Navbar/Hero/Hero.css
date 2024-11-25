@@ -1,0 +1,30 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url('../../../../assets/Img/hero-bg.png'); /* Verify path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .hero-container {
+      background-image: url('../../../../assets/Img/Background.png'); /* Verify path */
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+     
+      
+    
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-container {
+      background-size: contain;
+    }
+  }
+  
