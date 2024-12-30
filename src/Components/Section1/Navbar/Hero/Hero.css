@@ -25,6 +25,8 @@
   @media (max-width: 480px) {
     .hero-container {
       background-size: contain;
+      width: 100%;
+      min-height: 10vh;
     }
   }
   

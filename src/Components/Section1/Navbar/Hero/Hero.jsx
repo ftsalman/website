@@ -3,9 +3,9 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <div className="hero-container bg-white  mt-[24%] md:mt-[0] sm:mt-0 lg:-mt-[0]">
+    <div className="hero-container bg-white  mt-[%] md:mt-[0] sm:mt-0 lg:-mt-[0]">
       <div className="relative max-w-[90%] sm:max-w-[800px] md:mt-40 sm:mt-40 lg:mt-40 mt-10 mx-auto h-full text-center flex flex-col justify-center px-4">
-        <h1  className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-bold text-black leading-tight">
+        <h1  className="text-xl sm:text-3xl md:text-4xl lg:text-3xl font-bold text-black leading-tight">
           Empowering Businesses with <br />
           Scalable, Innovative Software <br />
           Solutions

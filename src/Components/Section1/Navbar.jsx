@@ -1,13 +1,12 @@
-
+import logo from '../../assets/Img/sharaco_white_Logo.png';
 const Navbar = () => {
   return (
     <nav className="w-full  px-6 py-4  ">
       {/* Navbar Container */}
-      <div className="flex  items-center justify-between">
+      <div className="flex   justify-center items-center md:justify-between">
         {/* Logo Section */}
-        <div className="flex items-center">
-            <span className='w-10 h-10 bg-violet-800 rounded-full'></span>
-           <span className="text-lg font-semibold text-gray-800 hidden sm:hidden lg:block md:block   ml-2">Sharaco <br /> Technologies</span>
+        <div className=" justify-center items-center">
+            <img className='w-40' src={logo} alt="" />
         </div>
 
         {/* Navigation Links */}

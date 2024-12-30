@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+import Logo from '../../assets/Img/sharaco_white_Logo.png'
 
 const Footer = () => {
   return (
-    <div className="flex flex-col p-6 md:p-14 bg-gray-50">
+    <div className="flex flex-col p-14 md:p-14 ">
       {/* Main Header Section */}
       <div className="flex flex-col items-center md:items-start">
         <h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-center md:text-left max-w-full md:max-w-[440px]">
@@ -13,7 +14,7 @@ const Footer = () => {
           <button className="bg-blue-600 text-white py-2 px-7 rounded-lg shadow-sm text-sm md:text-base hover:bg-blue-700 transition">
             Contact Us Now
           </button>
-          <img src="" alt="LOGO" className="mt-4 md:mt-0 md:ml-6 w-16 h-16 object-contain" />
+          <img src={Logo} alt="LOGO" className="mt-4 md:mt-0 md:ml-6 w-40  object-contain" />
         </div>
       </div>
 

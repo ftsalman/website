@@ -3,7 +3,7 @@ import image from '../../assets/Img/join.png';
 
 const Team = () => {
   return (
-    <div className="relative p-5 mt-16 md:mt-9 shadow-sm bg-white w-full">
+    <div className="relative p-14 mt-16 md:mt-9 shadow-sm bg-white w-full">
       {/* Main Container */}
       <div className="flex flex-col items-center justify-center gap-8 p-6 md:p-12 text-center">
         {/* Text Content */}
@@ -15,7 +15,7 @@ const Team = () => {
         </div>
 
         {/* Button */}
-        <button className="py-3 px-8 bg-[#6004F5] text-white font-semibold rounded-lg shadow-lg hover:bg-purple-800 transition duration-300">
+        <button className= "py-3 mt-6 z-50 px-8 bg-[#6004F5] text-white font-semibold rounded-lg shadow-lg hover:bg-purple-800 transition duration-300">
           Join Now
         </button>
 
