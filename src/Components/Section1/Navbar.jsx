@@ -33,41 +33,41 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img className="w-40" src={logo} alt="Sharaco Logo" />
+          <img className="w-44" src={logo} alt="Sharaco Logo" />
         </div>
 
         {/* Navigation Links */}
         <div className="hidden md:flex gap-6 items-center">
           <ul className="flex gap-6 items-center">
             <li>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="#" className="text-gray-700 hover:text-[#01B379]">
                 Products
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="#" className="text-gray-700 hover:text-[#01B379]">
                 Benefits
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="#" className="text-gray-700 hover:text-[#01B379]">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="#" className="text-gray-700 hover:text-[#01B379]">
                 Portfolio
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-700 hover:text-purple-600">
+              <a href="#" className="text-gray-700 hover:text-[#01B379]">
                 FAQ
               </a>
             </li>
           </ul>
 
           {/* Button */}
-          <button className="bg-[#543189] font-semibold text-white px-4 py-2 rounded-lg hover:bg-purple-700">
+          <button className="bg-[#01B379] font-semibold text-white px-4 py-2 rounded-lg hover:bg-[#01B379]/70">
             Contact Us
           </button>
         </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div ref={modalRef} className="md:hidden flex p-4 items-center justify-center shadow-lg mt-4 bg-[#7C3AED] text-white font-medium rounded-lg  ">
+        <div ref={modalRef} className="md:hidden flex p-4 items-center justify-center  mt-4 bg-[#FAFFFD] text-black font-medium rounded-lg  ">
           <ul className="flex flex-col gap-4 px-4 py-2">
             <li>
               <a href="#" >

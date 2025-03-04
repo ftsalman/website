@@ -7,6 +7,7 @@ import Brand from './Components/section3/Brand'
 import Service from './Components/Section5/Service'
 import Team from './Components/Section6/Team'
 import Footer from './Components/Section7/Footer'
+import "./app.css"
 
 const App = () => {
   return (

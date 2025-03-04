@@ -15,7 +15,7 @@ const Team = () => {
         </div>
 
         {/* Button */}
-        <button className= "py-3 mt-6 z-50 px-8 bg-[#6004F5] text-white font-semibold rounded-lg shadow-lg hover:bg-purple-800 transition duration-300">
+        <button className= "py-3 mt-6 z-50 px-14 bg-[#01B379] text-white font-semibold rounded-full shadow-lg hover:bg-[#01b37875] transition duration-300">
           Join Now
         </button>
 

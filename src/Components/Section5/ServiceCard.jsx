@@ -1,10 +1,10 @@
 import React from 'react'
 import { developmentIcon } from '../../assets/Icon'
 
-const ServiceCard = ({title}) => {
+const ServiceCard = ({title,des}) => {
   return (
   
-    <div className="flex flex-col cursor-pointer hover:scale-105 hover:border-[#7C5CFC] duration-500  items-center py-2 px-5 rounded-xl shadow-lg bg-white border border-gray-300 w-[260px]">
+    <div className="flex flex-col cursor-pointer hover:scale-105 hover:border-[#01B379] duration-500  items-center py-2 px-5 rounded-xl shadow-lg bg-white border border-gray-300 w-[260px]">
     {/* Icon and Title */}
     <div className="flex flex-col items-center justify-center w-full">
       <span className="text-4xl mb-2">{developmentIcon}</span>
@@ -15,7 +15,7 @@ const ServiceCard = ({title}) => {
     {/* Description */}
     <div className="text-center mt-4">
       <p className="text-sm text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.
+       {des}
       </p>
     </div>
   </div>
