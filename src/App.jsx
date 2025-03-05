@@ -11,7 +11,7 @@ import "./app.css"
 
 const App = () => {
   return (
-    <div>
+    <div className=' overflow-hidden'>
       <Navbar/>
       <Hero/>
       <Banner/>
